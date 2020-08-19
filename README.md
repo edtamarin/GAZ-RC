@@ -10,5 +10,6 @@ The BOM table provided with the repository contains a breakdown of all parts use
 Importantly, an HC-06 module was used instead of the Feasycom BT616.
 
 The car is controlled through a Teensy 4.0. I chose this board partly because it has some supprt for multithreading, and I wanted to separate communication and control so that they do not hinder each other.
+
 ## Software
-The code is developed in PlatformIO using the Arduino framework.
+The code is developed in PlatformIO using the Arduino framework. Controlling the car is possible by using the Bluetooth Joystick Control app.
